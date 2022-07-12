@@ -165,7 +165,7 @@ void find_file_select(void) {
     }
 
 
-    YEXE("special-buffer-prepare-jump-focus", "*grep-list");
+    YEXE("special-buffer-prepare-jump-focus", path);
     YEXE("buffer", path);
 
     free(_path);
